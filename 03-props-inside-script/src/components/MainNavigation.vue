@@ -2,8 +2,14 @@
 defineProps({
   title: {
     type: String,
+    requiered: true,
+    default: 'Default Title',
   },
 })
+
+function alertTitle() {
+  alert(`the title is: ${title}`)
+}
 </script>
 
 <template>

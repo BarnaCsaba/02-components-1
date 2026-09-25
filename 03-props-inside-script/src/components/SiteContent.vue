@@ -6,6 +6,7 @@
 
 <style scoped>
 main {
-    padding: 20px;
-    background-color: aqua;
-}</style>
+  padding: 20px;
+  background-color: aqua;
+}
+</style>
