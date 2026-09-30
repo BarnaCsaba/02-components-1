@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
     defineProps({
         title: {
             type: String,
@@ -6,12 +7,18 @@
             default: 'Default Title'
         }
     });
+=======
+>>>>>>> 8ef920782e682caecd2481add06ab006a93c57c0
 </script>
 
 <template>
     <nav>
         <ul>
+<<<<<<< HEAD
             <li><a href="/">{{ title }}</a></li>
+=======
+            <li><a href="/">Vue App</a></li>
+>>>>>>> 8ef920782e682caecd2481add06ab006a93c57c0
             <li><a href="https://vuejs.org/">Vue.js</a></li>
         </ul>
     </nav>
