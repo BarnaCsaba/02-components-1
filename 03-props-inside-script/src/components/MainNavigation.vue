@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
     const props = defineProps({
         title: {
             type: String,
@@ -45,3 +46,53 @@
         padding: 0.5rem 1rem;
     }
 </style>
+=======
+defineProps({
+  title: {
+    type: String,
+    requiered: true,
+    default: 'Default Title',
+  },
+})
+
+function alertTitle() {
+  alert(`the title is: ${title}`)
+}
+</script>
+
+<template>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">{{ title }}</a>
+      </li>
+      <li><a href="https://vuejs.org/">Vue.js</a></li>
+    </ul>
+  </nav>
+</template>
+
+<style scoped>
+nav {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+</style>
+>>>>>>> 8ef920782e682caecd2481add06ab006a93c57c0
